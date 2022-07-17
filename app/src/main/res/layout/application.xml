@@ -1,0 +1,200 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		main_page
+	 *	@date 		1656605240658
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/application" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_application_ek6"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__application_ek7"
+					android:background="@drawable/_bg__application_ek7_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="640dp" />
+
+				<ImageView android:id="@+id/rectangle_12_ek5"
+					android:src="@drawable/rectangle_12_ek5"
+					android:contentDescription="rectangle_12_ek5"
+					 android:layout_marginStart="-19dp"
+					android:layout_marginTop="-20dp"
+					android:layout_width="397dp"
+					android:layout_height="126dp" />
+
+				<TextView android:id="@+id/application_ek8"
+					android:fontFamily="Cabin"
+					android:textStyle="bold"
+					android:textSize="32sp"
+					android:textColor="@color/_bg__main_page_ek2_color"
+					android:layout_marginLeft="54dp"
+					android:layout_marginTop="8dp"
+					android:layout_width="193dp"
+					android:layout_height="61dp"
+					android:text="@string/application_ek8_string"
+					 />
+
+				<ImageView android:id="@+id/_r_7_ek6"
+					android:src="@drawable/_r_7_ek6"
+					android:contentDescription="_r_7_ek6"
+					 android:layout_marginStart="17dp"
+					android:layout_marginTop="18dp"
+					android:layout_width="25dp"
+					android:layout_height="25dp" />
+
+				<TextView android:id="@+id/enter_your_mobile_number_"
+					android:fontFamily="Inter"
+					android:textSize="18sp"
+					android:textColor="@color/point_mapper_color"
+					android:layout_marginLeft="36dp"
+					android:layout_marginTop="156dp"
+					android:layout_width="251dp"
+					android:layout_height="35dp"
+					android:text="@string/enter_your_mobile_number__string"
+					 />
+
+				<TextView android:id="@+id/application_description"
+					android:fontFamily="Inter"
+					android:textSize="18sp"
+					android:textColor="@color/point_mapper_color"
+					android:layout_marginLeft="36dp"
+					android:layout_marginTop="259dp"
+					android:layout_width="220dp"
+					android:layout_height="35dp"
+					android:text="@string/application_description_string"
+					 />
+
+				<View   android:id="@+id/rectangle_20"
+					android:background="@drawable/rectangle_20_shape"
+					 android:layout_marginStart="30dp"
+					android:layout_marginTop="193dp"
+					android:layout_width="270dp"
+					android:layout_height="40dp" />
+
+				<View   android:id="@+id/rectangle_21"
+					android:background="@drawable/rectangle_21_shape"
+					 android:layout_marginStart="30dp"
+					android:layout_marginTop="290dp"
+					android:layout_width="270dp"
+					android:layout_height="55dp" />
+
+				<TextView android:id="@+id/enter_mobile_no_"
+					android:fontFamily="Inter"
+					android:textSize="18sp"
+					android:textColor="@color/point_mapper_color"
+					android:layout_marginLeft="46dp"
+					android:layout_marginTop="202dp"
+					android:layout_width="161dp"
+					android:layout_height="35dp"
+					android:text="@string/enter_mobile_no__string"
+					 />
+
+				<TextView android:id="@+id/enter_description_here"
+					android:fontFamily="Inter"
+					android:textSize="18sp"
+					android:textColor="@color/point_mapper_color"
+					android:layout_marginLeft="44dp"
+					android:layout_marginTop="298dp"
+					android:layout_width="211dp"
+					android:layout_height="35dp"
+					android:text="@string/enter_description_here_string"
+					 />
+
+				<View   android:id="@+id/rectangle_29"
+					android:background="@drawable/rectangle_29_shape"
+					 android:layout_marginStart="90dp"
+					android:layout_marginTop="454dp"
+					android:layout_width="152dp"
+					android:layout_height="32dp" />
+
+
+				<RelativeLayout android:id="@+id/group_2"
+					android:layout_marginTop="386dp"
+					android:layout_marginStart="137dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_28"
+						android:background="@drawable/rectangle_28_shape"
+						 android:alpha="0.8299999833107"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="173.71dp"
+						android:layout_height="35dp" />
+
+					<TextView android:id="@+id/upload_application"
+						android:fontFamily="Inter"
+						android:textSize="18sp"
+						android:textColor="@color/point_mapper_color"
+						android:layout_marginLeft="8dp"
+						android:layout_marginTop="5dp"
+						android:layout_width="207dp"
+						android:layout_height="37.06dp"
+						android:text="@string/upload_application_string"
+						 />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/select_file_"
+					android:fontFamily="Inter"
+					android:textSize="18sp"
+					android:textColor="@color/point_mapper_color"
+					android:layout_marginLeft="39dp"
+					android:layout_marginTop="388dp"
+					android:layout_width="112dp"
+					android:layout_height="35dp"
+					android:text="@string/select_file__string"
+					 />
+
+				<TextView android:id="@+id/submit_ek1"
+					android:fontFamily="Inter"
+					android:textSize="18sp"
+					android:textColor="@color/_bg__main_page_ek2_color"
+					android:layout_marginLeft="134dp"
+					android:layout_marginTop="459dp"
+					android:layout_width="83dp"
+					android:layout_height="35dp"
+					android:text="@string/submit_ek1_string"
+					 />
+
+			</RelativeLayout>
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

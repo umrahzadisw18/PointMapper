@@ -1,0 +1,224 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		main_page
+	 *	@date 		1656605240658
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/login" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" >
+
+
+
+			<RelativeLayout android:id="@+id/page_login_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				>
+
+				<View   android:id="@+id/_bg__login_ek2"
+					android:background="@drawable/_bg__login_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="match_parent"
+					android:layout_height="760dp" />
+
+				<TextView android:id="@+id/login_ek3"
+					android:fontFamily="Cabin"
+					android:textSize="20sp"
+					android:textColor="@color/_bg__main_page_ek2_color"
+					android:layout_marginLeft="201dp"
+					android:layout_marginTop="17dp"
+					android:layout_width="72dp"
+					android:layout_height="38dp"
+					android:text="@string/login_ek3_string"
+					 />
+
+				<TextView android:id="@+id/_register"
+					android:fontFamily="Cabin"
+					android:textSize="20sp"
+					android:textColor="@color/_register_color"
+					android:layout_marginLeft="284dp"
+					android:layout_marginTop="17dp"
+					android:layout_width="93dp"
+					android:layout_height="38dp"
+					android:text="@string/_register_string"
+					 />
+
+				<View   android:id="@+id/rectangle_3"
+					android:background="@drawable/rectangle_3_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="95dp"
+					android:layout_width="match_parent"
+					android:layout_height="710dp" />
+
+				<TextView android:id="@+id/login_ek4"
+					android:fontFamily="Cabin"
+					android:textStyle="bold"
+					android:textSize="24sp"
+					android:textColor="@color/point_mapper_color"
+					android:layout_marginLeft="155dp"
+					android:layout_marginTop="135dp"
+					android:layout_width="99dp"
+					android:layout_height="46dp"
+					android:text="@string/login_ek4_string"
+					 />
+
+				<View   android:id="@+id/line_1"
+					android:background="@drawable/line_1_shape"
+					 android:layout_marginStart="31dp"
+					android:layout_marginTop="291dp"
+					android:layout_width="281.02dp"
+					android:layout_height="1dp" />
+
+				<View   android:id="@+id/line_2"
+					android:background="@drawable/line_2_shape"
+					 android:layout_marginStart="31dp"
+					android:layout_marginTop="400dp"
+					android:layout_width="281.02dp"
+					android:layout_height="1dp" />
+
+				<EditText
+					android:id="@+id/email"
+					android:layout_width="201.5dp"
+					android:layout_height="38.5dp"
+					android:layout_marginLeft="31dp"
+					android:layout_marginTop="260dp"
+					android:layout_marginBottom="10dp"
+					android:fontFamily="Inter"
+					android:hint="@string/abc_gmail_com_string"
+					android:textColor="@color/point_mapper_color"
+					android:textSize="15sp" />
+
+				<TextView
+					android:id="@+id/Email"
+					android:layout_width="118dp"
+					android:layout_height="38dp"
+					android:layout_marginLeft="33dp"
+					android:layout_marginTop="215dp"
+					android:fontFamily="Cabin"
+					android:text="Email"
+					android:textColor="@color/point_mapper_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+				<TextView android:id="@+id/password_"
+					android:fontFamily="Cabin"
+					android:textStyle="bold"
+					android:textSize="20sp"
+					android:textColor="@color/point_mapper_color"
+					android:layout_marginLeft="31dp"
+					android:layout_marginTop="315dp"
+					android:layout_width="111dp"
+					android:layout_height="38dp"
+					android:text="@string/password__string"
+					 />
+
+				<EditText android:id="@+id/password"
+					android:fontFamily="Cabin"
+					android:textSize="15sp"
+					android:textColor="@color/point_mapper_color"
+					android:layout_marginLeft="31dp"
+					android:layout_marginTop="370dp"
+					android:layout_width="201.5dp"
+					android:layout_height="38.5dp"
+					android:hint="@string/password_string"
+					 />
+
+				<View   android:id="@+id/_rectangle_4"
+					android:background="@drawable/_rectangle_4_shape"
+					 android:layout_marginStart="120dp"
+					android:layout_marginTop="446dp"
+					android:layout_width="165dp"
+					android:onClick="onClick"
+					android:layout_height="38dp" />
+
+				<TextView android:id="@+id/login_ek5"
+					android:fontFamily="Cabin"
+					android:textSize="17sp"
+					android:textColor="@color/_bg__main_page_ek2_color"
+					android:layout_marginStart="177dp"
+					android:layout_marginTop="455dp"
+					android:layout_width="62.5dp"
+					android:layout_height="32.5dp"
+					android:text="@string/login_ek5_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/button_ek1"
+					android:layout_marginTop="514dp"
+					android:layout_marginStart="120dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_5"
+						android:background="@drawable/rectangle_5_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="165dp"
+						android:layout_height="38dp" />
+
+					<TextView android:id="@+id/register_ek1"
+						android:fontFamily="Cabin"
+						android:textSize="17sp"
+						android:textColor="@color/_bg__main_page_ek2_color"
+						android:layout_marginLeft="50dp"
+						android:layout_marginTop="9dp"
+						android:layout_width="80.5dp"
+						android:layout_height="32.5dp"
+						android:text="@string/register_ek1_string"
+						 />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/forget_password_"
+					android:fontFamily="Inter"
+					android:textSize="13sp"
+					android:textColor="@color/point_mapper_color"
+					android:layout_marginLeft="239dp"
+					android:layout_marginTop="405dp"
+					android:layout_width="126.5dp"
+					android:layout_height="25.5dp"
+					android:text="@string/forget_password__string"
+					 />
+
+				<ImageView android:id="@+id/oip__1__1"
+					android:src="@drawable/oip__1__1"
+					android:contentDescription="oip__1__1"
+					 android:layout_marginStart="17dp"
+					android:layout_marginTop="15dp"
+					android:layout_width="66dp"
+					android:layout_height="49dp" />
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="exportkit.xd" >
+	<uses-permission android:name="android:permission.INTERNET"/>
+	
+
+	<application
+		android:allowBackup="true"
+		android:theme="@style/AppTheme"
+		android:icon="@drawable/oip__1__1_ek1"
+		android:label="@string/app_name" >
+		<activity
+		android:name=".main_page_activity"
+		android:configChanges="orientation|keyboardHidden|screenSize"
+		android:label="@string/app_name"
+		android:exported="true"  >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+			<activity android:name="exportkit.xd.login_activity"></activity>
+			<activity android:name="exportkit.xd.register_activity"></activity>
+			<activity android:name="exportkit.xd.welcome_activity"></activity>
+			<activity android:name="exportkit.xd.detail_page_activity"></activity>
+			<activity android:name="exportkit.xd.live_location_activity"></activity>
+			<activity android:name="exportkit.xd.anouncement_activity"></activity>
+			<activity android:name="exportkit.xd.routes_activity"></activity>
+			<activity android:name="exportkit.xd.ranipur_point_deatail_activity"></activity>
+			<activity android:name="exportkit.xd.emergency_contact_activity"></activity>
+			<activity android:name="exportkit.xd.application_activity"></activity>
+			<activity android:name="exportkit.xd.ranipur_route_activity"></activity>
+			<activity android:name="exportkit.xd.breakdwon_activity"></activity>
+			<activity android:name="exportkit.xd.accident_activity"></activity>
+			<activity android:name="exportkit.xd.medical_aaistance_activity"></activity>
+			<activity android:name="exportkit.xd.about__activity"></activity>
+			<activity android:name="exportkit.xd.feedback_activity"></activity>
+
+	</application>
+
+</manifest>
+	
+	

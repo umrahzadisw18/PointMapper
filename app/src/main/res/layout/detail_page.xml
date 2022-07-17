@@ -1,0 +1,306 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		main_page
+	 *	@date 		1656605240658
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/detail_page" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_detail_page_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__detail_page_ek2"
+					android:background="@drawable/_bg__detail_page_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="640dp" />
+
+				<ImageView android:id="@+id/rectangle_12"
+					android:src="@drawable/rectangle_12"
+					android:contentDescription="rectangle_12"
+					 android:layout_marginStart="-17dp"
+					android:layout_marginTop="-10dp"
+					android:layout_width="397dp"
+					android:layout_height="126dp" />
+
+				<TextView android:id="@+id/details_of_points"
+					android:fontFamily="Cabin"
+					android:textStyle="bold"
+					android:textSize="24sp"
+					android:textColor="@color/_bg__main_page_ek2_color"
+					android:layout_marginLeft="51dp"
+					android:layout_marginTop="24dp"
+					android:layout_width="250dp"
+					android:layout_height="46dp"
+					android:text="@string/details_of_points_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/sukkur"
+					android:layout_marginTop="151dp"
+					android:layout_marginStart="36dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/r_1"
+						android:src="@drawable/r_1"
+						android:contentDescription="r_1"
+						 android:layout_marginStart="10dp"
+						android:layout_marginTop="12dp"
+						android:layout_width="28dp"
+						android:layout_height="28dp" />
+
+					<View   android:id="@+id/rectangle_13"
+						android:background="@drawable/rectangle_13_shape"
+						 android:alpha="0.31000000238419"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="269dp"
+						android:layout_height="48dp" />
+
+					<TextView android:id="@+id/sukkur_point_detail"
+						android:fontFamily="Cabin"
+						android:textSize="22sp"
+						android:textColor="@color/point_mapper_color"
+						android:layout_marginLeft="40dp"
+						android:layout_marginTop="11dp"
+						android:layout_width="203dp"
+						android:layout_height="42dp"
+						android:text="@string/sukkur_point_detail_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/ranipur"
+					android:layout_marginTop="233dp"
+					android:layout_marginStart="36dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/r_3"
+						android:src="@drawable/r_3"
+						android:contentDescription="r_3"
+						 android:layout_marginStart="8dp"
+						android:layout_marginTop="94dp"
+						android:layout_width="28dp"
+						android:layout_height="28dp" />
+
+					<ImageView android:id="@+id/r_2"
+						android:src="@drawable/r_2"
+						android:contentDescription="r_2"
+						 android:layout_marginStart="10dp"
+						android:layout_marginTop="11dp"
+						android:layout_width="28dp"
+						android:layout_height="28dp" />
+
+					<View   android:id="@+id/_rectangle_13_ek1"
+						android:background="@drawable/_rectangle_13_ek1_shape"
+						 android:alpha="0.31000000238419"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="269dp"
+						android:layout_height="48dp" />
+
+					<TextView android:id="@+id/rainpur_point_detail"
+						android:fontFamily="Cabin"
+						android:textSize="22sp"
+						android:textColor="@color/point_mapper_color"
+						android:layout_marginLeft="38dp"
+						android:layout_marginTop="11dp"
+						android:layout_width="211dp"
+						android:layout_height="42dp"
+						android:text="@string/rainpur_point_detail_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/panoaqil"
+					android:layout_marginTop="315dp"
+					android:layout_marginStart="36dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_13_ek2"
+						android:background="@drawable/rectangle_13_ek2_shape"
+						 android:alpha="0.31000000238419"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="269dp"
+						android:layout_height="48dp" />
+
+					<TextView android:id="@+id/panoaqil_point_detail"
+						android:fontFamily="Cabin"
+						android:textSize="22sp"
+						android:textColor="@color/point_mapper_color"
+						android:layout_marginLeft="35dp"
+						android:layout_marginTop="11dp"
+						android:layout_width="220dp"
+						android:layout_height="42dp"
+						android:text="@string/panoaqil_point_detail_string"
+						 />
+
+				</RelativeLayout>
+
+				<ImageView android:id="@+id/r_5"
+					android:src="@drawable/r_5"
+					android:contentDescription="r_5"
+					 android:layout_marginStart="46dp"
+					android:layout_marginTop="478dp"
+					android:layout_width="28dp"
+					android:layout_height="28dp" />
+
+				<ImageView android:id="@+id/r_4"
+					android:src="@drawable/r_4"
+					android:contentDescription="r_4"
+					 android:layout_marginStart="46dp"
+					android:layout_marginTop="407dp"
+					android:layout_width="28dp"
+					android:layout_height="28dp" />
+
+
+				<RelativeLayout android:id="@+id/hostel_2"
+					android:layout_marginTop="395dp"
+					android:layout_marginStart="36dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_13_ek3"
+						android:background="@drawable/rectangle_13_ek3_shape"
+						 android:alpha="0.31000000238419"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="269dp"
+						android:layout_height="48dp" />
+
+					<TextView android:id="@+id/hostel_point_1_detail"
+						android:fontFamily="Cabin"
+						android:textSize="22sp"
+						android:textColor="@color/point_mapper_color"
+						android:layout_marginLeft="39dp"
+						android:layout_marginTop="11dp"
+						android:layout_width="212dp"
+						android:layout_height="42dp"
+						android:text="@string/hostel_point_1_detail_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/hostel_1"
+					android:layout_marginTop="467dp"
+					android:layout_marginStart="36dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_13_ek4"
+						android:background="@drawable/rectangle_13_ek4_shape"
+						 android:alpha="0.31000000238419"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="269dp"
+						android:layout_height="48dp" />
+
+					<TextView android:id="@+id/hostel_point_2_detail"
+						android:fontFamily="Cabin"
+						android:textSize="22sp"
+						android:textColor="@color/point_mapper_color"
+						android:layout_marginLeft="37dp"
+						android:layout_marginTop="11dp"
+						android:layout_width="216dp"
+						android:layout_height="42dp"
+						android:text="@string/hostel_point_2_detail_string"
+						 />
+
+				</RelativeLayout>
+
+				<ImageView android:id="@+id/r_6"
+					android:src="@drawable/r_6"
+					android:contentDescription="r_6"
+					 android:layout_marginStart="50dp"
+					android:layout_marginTop="549dp"
+					android:layout_width="28dp"
+					android:layout_height="28dp" />
+
+
+				<RelativeLayout android:id="@+id/city"
+					android:layout_marginTop="539dp"
+					android:layout_marginStart="36dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_13_ek5"
+						android:background="@drawable/rectangle_13_ek5_shape"
+						 android:alpha="0.31000000238419"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="269dp"
+						android:layout_height="48dp" />
+
+					<TextView android:id="@+id/city_point_detail"
+						android:fontFamily="Cabin"
+						android:textSize="22sp"
+						android:textColor="@color/point_mapper_color"
+						android:layout_marginLeft="45dp"
+						android:layout_marginTop="11dp"
+						android:layout_width="177dp"
+						android:layout_height="42dp"
+						android:text="@string/city_point_detail_string"
+						 />
+
+				</RelativeLayout>
+
+				<ImageView android:id="@+id/_r_7_ek1"
+					android:src="@drawable/_r_7_ek1"
+					android:contentDescription="_r_7_ek1"
+					 android:layout_marginStart="14dp"
+					android:layout_marginTop="27dp"
+					android:layout_width="25dp"
+					android:layout_height="25dp" />
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

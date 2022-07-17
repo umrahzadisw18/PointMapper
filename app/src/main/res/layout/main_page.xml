@@ -1,0 +1,131 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+	<!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		main_page
+     *	@date 		1656605240658
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+	<ScrollView
+		android:id="@+id/main_page"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+
+			<RelativeLayout
+				android:id="@+id/page_main_page_ek1"
+				android:layout_width="match_parent"
+				android:layout_height="740dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
+
+				<View
+					android:id="@+id/_bg__main_page_ek2"
+					android:layout_width="410dp"
+					android:layout_height="790dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__main_page_ek2_shape" />
+
+				<ImageView
+					android:id="@+id/rectangle_2"
+					android:layout_width="420dp"
+					android:layout_height="790dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:contentDescription="rectangle_2"
+					android:src="@drawable/rectangle_2" />
+
+				<View
+					android:id="@+id/rectangle_6"
+					android:layout_width="265dp"
+					android:layout_height="390dp"
+					android:layout_marginStart="98dp"
+					android:layout_marginTop="175dp"
+					android:layout_marginLeft="100dp"
+					android:alpha="0.21999999880791"
+					android:background="@drawable/rectangle_6_shape" />
+
+				<ImageView
+					android:id="@+id/transit_on_demand_1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="118dp"
+					android:layout_marginTop="271dp"
+					android:layout_marginLeft="120dp"
+					android:contentDescription="transit_on_demand_1"
+					android:src="@drawable/transit_on_demand_1" />
+
+
+				<TextView
+					android:id="@+id/point_mapper"
+					android:layout_width="181dp"
+					android:layout_height="46dp"
+					android:layout_marginLeft="141dp"
+					android:layout_marginTop="190dp"
+					android:fontFamily="Inter"
+					android:shadowColor="#000000"
+					android:shadowDx="0"
+					android:shadowDy="4"
+					android:shadowRadius="4"
+					android:text="@string/point_mapper_string"
+					android:textColor="@color/point_mapper_color"
+					android:textSize="24sp" />
+
+				<RelativeLayout
+
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="99dp"
+					android:layout_marginTop="543dp">
+
+					<Button
+						android:id="@+id/button"
+						android:layout_width="175dp"
+						android:layout_height="40dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="75dp"
+						android:layout_marginLeft="20dp"
+						android:alpha="0.62999999523163"
+						android:background="@android:drawable/bottom_bar"
+						android:shadowColor="@color/cardview_dark_background"
+						android:text="@string/explore_your_way_string" />
+
+					<!--					<TextView-->
+					<!--						android:id="@+id/explore_your_way"-->
+					<!--						android:layout_width="169dp"-->
+					<!--						android:layout_height="35dp"-->
+					<!--						android:layout_marginLeft="13dp"-->
+					<!--						android:layout_marginTop="6dp"-->
+					<!--						android:fontFamily="Inter"-->
+					<!--						android:text="@string/explore_your_way_string"-->
+					<!--						android:textColor="@color/_bg__main_page_ek2_color"-->
+					<!--						android:textSize="18sp" />-->
+
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

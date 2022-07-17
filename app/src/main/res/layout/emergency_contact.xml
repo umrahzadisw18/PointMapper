@@ -1,0 +1,197 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="match_parent" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		main_page
+	 *	@date 		1656605240658
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/emergency_contact" 
+		android:layout_width="match_parent"
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="match_parent"
+			android:layout_height="match_parent" >
+
+
+
+
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_emergency_contact_ek3"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				>
+
+				<View   android:id="@+id/_bg__emergency_contact_ek4"
+					android:background="@drawable/_bg__emergency_contact_ek4_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="640dp" />
+
+				<ImageView android:id="@+id/rectangle_12_ek4"
+					android:src="@drawable/rectangle_12_ek4"
+					android:contentDescription="rectangle_12_ek4"
+					 android:layout_marginStart="-19dp"
+					android:layout_marginTop="-20dp"
+					android:layout_width="397dp"
+					android:layout_height="126dp" />
+
+				<TextView android:id="@+id/emergency_contact_ek5"
+					android:fontFamily="Cabin"
+					android:textStyle="bold"
+					android:textSize="32sp"
+					android:textColor="@color/_bg__main_page_ek2_color"
+					android:layout_marginLeft="37dp"
+					android:layout_marginTop="6dp"
+					android:layout_width="305dp"
+					android:layout_height="61dp"
+					android:text="@string/emergency_contact_ek5_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/application_ek2"
+					android:layout_marginTop="290dp"
+					android:layout_marginStart="78dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_11_ek7"
+						android:background="@drawable/rectangle_11_ek7_shape"
+						 android:alpha="0.33000001311302"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="191dp"
+						android:layout_height="170.19dp" />
+
+					<TextView android:id="@+id/report_breakdown"
+						android:fontFamily="Cabin"
+						android:textSize="15sp"
+						android:textColor="@color/point_mapper_color"
+						android:layout_marginLeft="32dp"
+						android:layout_marginTop="140dp"
+						android:layout_width="153.96dp"
+						android:layout_height="31.31dp"
+						android:text="@string/report_breakdown_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/application_ek3"
+					android:layout_marginTop="110dp"
+					android:layout_marginStart="73dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_11_ek8"
+						android:background="@drawable/rectangle_11_ek8_shape"
+						 android:alpha="0.33000001311302"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="193dp"
+						android:layout_height="171.97dp" />
+
+					<TextView android:id="@+id/medical_assistant"
+						android:fontFamily="Cabin"
+						android:textSize="14sp"
+						android:textColor="@color/point_mapper_color"
+						android:layout_marginLeft="32dp"
+						android:layout_marginTop="141dp"
+						android:layout_width="145.19dp"
+						android:layout_height="31.03dp"
+						android:text="@string/medical_assistant_string"
+						 />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/application_ek4"
+					android:layout_marginTop="464dp"
+					android:layout_marginStart="80dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_11_ek9"
+						android:background="@drawable/rectangle_11_ek9_shape"
+						 android:alpha="0.33000001311302"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="186dp"
+						android:layout_height="165.73dp" />
+
+					<TextView android:id="@+id/report_accident"
+						android:fontFamily="Cabin"
+						android:textSize="15sp"
+						android:textColor="@color/point_mapper_color"
+						android:layout_marginLeft="31dp"
+						android:layout_marginTop="136dp"
+						android:layout_width="133.77dp"
+						android:layout_height="30.77dp"
+						android:text="@string/report_accident_string"
+						 />
+
+				</RelativeLayout>
+
+				<ImageView android:id="@+id/undraw_working_from_anywhere_re_9obt_1"
+					android:src="@drawable/undraw_working_from_anywhere_re_9obt_1"
+					android:contentDescription="undraw_working_from_anywhere_re_9obt_1"
+					 android:layout_marginStart="92dp"
+					android:layout_marginTop="304dp"
+					android:layout_width="152dp"
+					android:layout_height="110dp" />
+
+				<ImageView android:id="@+id/undraw_medical_care_movn_1"
+					android:src="@drawable/undraw_medical_care_movn_1"
+					android:contentDescription="undraw_medical_care_movn_1"
+					 android:layout_marginStart="84dp"
+					android:layout_marginTop="132dp"
+					android:layout_width="171dp"
+					android:layout_height="118dp" />
+
+				<ImageView android:id="@+id/undraw_vehicle_sale_a645_1"
+					android:src="@drawable/undraw_vehicle_sale_a645_1"
+					android:contentDescription="undraw_vehicle_sale_a645_1"
+					 android:layout_marginStart="91dp"
+					android:layout_marginTop="487dp"
+					android:layout_width="164dp"
+					android:layout_height="92dp" />
+
+				<ImageView android:id="@+id/_r_7_ek5"
+					android:src="@drawable/_r_7_ek5"
+					android:contentDescription="_r_7_ek5"
+					 android:layout_marginStart="10dp"
+					android:layout_marginTop="14dp"
+					android:layout_width="25dp"
+					android:layout_height="25dp" />
+
+			</RelativeLayout>
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
